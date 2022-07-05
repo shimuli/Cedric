@@ -1,0 +1,125 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace Cedric.Model.Phamacore
+{
+    public partial class Sy
+    {
+        public string Cshacct { get; set; }
+        public string Reacct { get; set; }
+        public string Aracct { get; set; }
+        public string Apacct { get; set; }
+        public string Lateacct { get; set; }
+        public string Fedtxacct { get; set; }
+        public string Slstxacct { get; set; }
+        public string Rptpdstart { get; set; }
+        public string Rptpdend { get; set; }
+        public string Company { get; set; }
+        public string Address1 { get; set; }
+        public string Address2 { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string Zip { get; set; }
+        public string Phone { get; set; }
+        public string Fax { get; set; }
+        public string Fedid { get; set; }
+        public string Dfltport { get; set; }
+        public double? Reference { get; set; }
+        public double? Nextbatch { get; set; }
+        public double? Vendor { get; set; }
+        public double? Customer { get; set; }
+        public double? Item { get; set; }
+        public bool Multiacct { get; set; }
+        public bool Apmemoprn { get; set; }
+        public bool Armemoprn { get; set; }
+        public bool Gl { get; set; }
+        public bool Reinit { get; set; }
+        public bool? Glsuppress { get; set; }
+        public bool? Rollupchks { get; set; }
+        public bool? Chksprnted { get; set; }
+        public bool? Chkjournal { get; set; }
+        public double? Arlatefee { get; set; }
+        public double? Arcutoff { get; set; }
+        public double? Latefeemin { get; set; }
+        public double? Oequote { get; set; }
+        public double? Oeorder { get; set; }
+        public double? Oeinvoice { get; set; }
+        public double? Oebkorder { get; set; }
+        public bool? Oecloseinv { get; set; }
+        public double? Ipreceipt { get; set; }
+        public double? Ippurchord { get; set; }
+        public double? Fedtax { get; set; }
+        public short? Qtydec { get; set; }
+        public short? Prcdec { get; set; }
+        public string Qtypic { get; set; }
+        public string Prcpic { get; set; }
+        public bool? Invjournal { get; set; }
+        public bool? Canada { get; set; }
+        public bool? Backorder { get; set; }
+        public string Ardiscacct { get; set; }
+        public bool? Lasercks { get; set; }
+        public string Bankname { get; set; }
+        public string Bankbranch { get; set; }
+        public string Bankaddr { get; set; }
+        public string Bankcode { get; set; }
+        public string Bankencd { get; set; }
+        public double? Checkno { get; set; }
+        public string Glperiod { get; set; }
+        public string Apperiod { get; set; }
+        public string Arperiod { get; set; }
+        public bool? Extnddesc { get; set; }
+        public double? Asset { get; set; }
+        public short? Acctpds { get; set; }
+        public string Invsrkacct { get; set; }
+        public string FedidPr { get; set; }
+        public string Stateid { get; set; }
+        public double? Sswglmt { get; set; }
+        public double? Ssrate { get; set; }
+        public double? Mediwglmt { get; set; }
+        public double? Medirate { get; set; }
+        public double? Futawglmt { get; set; }
+        public double? Futarate { get; set; }
+        public double? Sutawglmt { get; set; }
+        public double? Sutarate { get; set; }
+        public DateTime? Ckdate { get; set; }
+        public DateTime? Pdstart { get; set; }
+        public DateTime? Pdend { get; set; }
+        public bool? Prcksprntd { get; set; }
+        public bool? Prjrnprntd { get; set; }
+        public bool? Tmsprntd { get; set; }
+        public bool? Ckregprntd { get; set; }
+        public string Liabacct { get; set; }
+        public string Sutaacct { get; set; }
+        public string Futaacct { get; set; }
+        public string Mediacct { get; set; }
+        public string Ficaacct { get; set; }
+        public double? RefPr { get; set; }
+        public string Aragingpd { get; set; }
+        public string Apagingpd { get; set; }
+        public bool? Laserinv { get; set; }
+        public bool? Multiloc { get; set; }
+        public double? Nextkit { get; set; }
+        public bool? Fadepcalc { get; set; }
+        public bool? Fadepjrnl { get; set; }
+        public bool? Batch { get; set; }
+        public string Locs { get; set; }
+        public double? Length { get; set; }
+        public string Editmask { get; set; }
+        public string Cstctrmask { get; set; }
+        public string Entmask { get; set; }
+        public double? Acctpos { get; set; }
+        public double? Acctlen { get; set; }
+        public double? Cstctrpos { get; set; }
+        public double? Cstctrlen { get; set; }
+        public double? Entpos { get; set; }
+        public double? Entlen { get; set; }
+        public string Maskchar { get; set; }
+        public bool? Entity1st { get; set; }
+        public string Dataset { get; set; }
+        public string Wordproc { get; set; }
+        public Guid Rowguid { get; set; }
+        public string Glyear { get; set; }
+    }
+}
